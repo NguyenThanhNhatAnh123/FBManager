@@ -1,0 +1,13 @@
+interface:
+  display_name: Ảnh áo chân thực 9:16 — 7 ảnh
+  short_description: Đúng count được giao, ảnh áo 9:16, giữ artwork
+  default_prompt: Dùng $realistic-shirt-photos-9x16 tạo ảnh áo chân thực riêng biệt
+    dọc 9:16, đúng variant_count trong run-input; standalone mặc định 7 ảnh.
+    Mỗi ảnh một màu áo phù hợp, giữ nguyên artwork và không lộ mặt người.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

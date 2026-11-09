@@ -1,0 +1,4 @@
+# Reuse chrome-manager/.venv; protocol uses stdlib and these existing dependencies.
+httpx>=0.28,<1
+pydantic>=2,<3
+tzdata>=2025.1,<2028

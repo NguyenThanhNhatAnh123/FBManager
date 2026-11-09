@@ -1,0 +1,8 @@
+.cm-products{display:flex;gap:4px;padding:4px;margin:0 0 14px;border:1px solid #29292e;background:#151518;border-radius:9px}
+.cm-products a{display:flex;flex:1;align-items:center;justify-content:center;gap:7px;min-height:31px;padding:6px 7px;border-radius:6px;text-decoration:none;font-size:11px;color:#9b9ba6;white-space:nowrap}
+.cm-products a:hover{background:#23232a;color:#eee}
+.cm-products a.active{background:#23372e;color:#79e4ae;box-shadow:0 1px 3px #0002}
+.cm-products a svg{flex-shrink:0}
+.sidebar-collapsed .cm-products{flex-direction:column}
+.sidebar-collapsed .cm-products a span{display:none}
+@media(max-width:1050px){.cm-products{flex-direction:column}.cm-products a span{display:none}}

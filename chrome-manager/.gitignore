@@ -1,0 +1,17 @@
+.venv/
+.env
+.runtime/
+__pycache__/
+.pytest_cache/
+node_modules/
+frontend/dist/
+data/*
+profiles/*
+screenshots/*
+logs/*
+!**/.gitkeep
+
+frontend/.npm-logs/
+*.tsbuildinfo
+
+.browsers/

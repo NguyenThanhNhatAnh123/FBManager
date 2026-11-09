@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "via_manager": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["-I", "-B", "${PLUGIN_ROOT}/client/stdio_proxy.py", "--config", "${PLUGIN_ROOT}/client-config.json"],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

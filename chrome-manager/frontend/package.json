@@ -1,0 +1,30 @@
+{
+  "name": "chrome-multi-profile-manager",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:ui": "node ../tests/ui_smoke.cjs"
+  },
+  "dependencies": {
+    "lucide-react": "1.7.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "autoprefixer": "10.6.1",
+    "playwright": "1.58.2",
+    "postcss": "8.5.32",
+    "tailwindcss": "3.4.19",
+    "typescript": "5.9.3",
+    "vite": "8.3.6"
+  },
+  "overrides": {
+    "postcss-selector-parser": "6.1.5"
+  }
+}

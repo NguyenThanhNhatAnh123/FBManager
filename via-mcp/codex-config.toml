@@ -1,0 +1,8 @@
+# Import this server through Codex Settings > MCP servers, or run connect-codex.ps1.
+[mcp_servers.via_manager]
+command = 'C:\Users\Admin\Via\chrome-manager\.venv\Scripts\python.exe'
+args = ['-I', 'C:\Users\Admin\Via\via-mcp\server.py', '--port', '8000', '--media-root', 'C:\Users\Admin\Via\mcp-media']
+cwd = 'C:\Users\Admin\Via\via-mcp'
+startup_timeout_sec = 20
+tool_timeout_sec = 900
+enabled = true

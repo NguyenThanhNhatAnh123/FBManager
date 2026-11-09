@@ -1,0 +1,13 @@
+interface:
+  display_name: Ảnh áo cận cảnh 9:16 — 7 ảnh
+  short_description: Đúng count được giao, cận cảnh artwork 9:16
+  default_prompt: Dùng $realistic-shirt-photos-closeup-9x16 tạo ảnh áo cận cảnh
+    riêng biệt dọc 9:16, đúng variant_count trong run-input; standalone mặc định
+    7 ảnh. Giữ trọn artwork và tỉ lệ in, mỗi ảnh một màu áo, không lộ mặt người.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

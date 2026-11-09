@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "bind_host": "127.0.0.1",
+  "port": 8040,
+  "manager_port": 8000,
+  "public_origin": null,
+  "allow_http_loopback": false
+}

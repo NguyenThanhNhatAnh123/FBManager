@@ -1,0 +1,4 @@
+interface:
+  display_name: "Page Blueox: video zoom 8s theo phân bổ"
+  short_description: "Đúng count đã cấp, nhạc luân phiên, FFmpeg 8 giây cho Page"
+  default_prompt: "Dùng $page-shirt-zoom-8s với run-input Page Manager đã giao; tạo đúng variant_count ảnh/video zoom 8 giây từ 1 đến 14, giữ nguyên UUID/artwork, bàn giao QA và caption chỉ chứa URL sản phẩm Blueox."

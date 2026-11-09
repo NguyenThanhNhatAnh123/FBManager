@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Smvmail",
+    "domains": ["smvmail.com"],
+    "url": "https://smvmail.com/email/inbox?email={email}",
+    "source": "https://smvmail.com/email"
+  },
+  {
+    "name": "FVia Inboxes",
+    "domains": ["fviainboxes.com", "fviadropinbox.com", "fviamail.work", "dropinboxes.com"],
+    "url": "https://fviainboxes.com/",
+    "source": "https://fviainboxes.com/"
+  },
+  {
+    "name": "Inboxes.com",
+    "domains": ["blondmail.com", "chapsmail.com", "clowmail.com", "dropjar.com", "fivermail.com", "getairmail.com", "getmule.com", "getnada.com", "gimpmail.com", "givmail.com", "guysmail.com", "inboxbear.com", "replyloop.com", "robot-mail.com", "tafmail.com", "temptami.com", "tupmail.com", "vomoto.com"],
+    "url": "https://inboxes.com/",
+    "source": "https://inboxes.com/"
+  }
+]

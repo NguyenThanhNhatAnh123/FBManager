@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "via",
+  "version": "1.1.0",
+  "description": "Private access to the shared Via server using each person's own account.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Via",
+        "shortDescription": "Manage shared Via pages and schedules"
+      },
+      "requires_local_executor": true
+    }
+  }
+}

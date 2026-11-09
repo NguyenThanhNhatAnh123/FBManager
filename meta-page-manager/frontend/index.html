@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#101012">
+  <title>Page Manager · Không gian quản lý Page</title>
+  <link rel="stylesheet" href="static/fonts.css">
+  <link rel="stylesheet" href="static/styles.css">
+  <link rel="stylesheet" href="static/workspace-theme.css">
+  <link rel="stylesheet" href="static/page-editor.css">
+  <link rel="stylesheet" href="static/reel-scheduler.css">
+  <link rel="stylesheet" href="static/video-source.css">
+  <link rel="stylesheet" href="static/idea-pipeline.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Đến nội dung chính</a>
+  <div id="app"></div>
+  <div id="announcer" class="sr-only" role="status" aria-live="polite"></div>
+  <div id="toasts" class="toast-stack" aria-live="polite"></div>
+  <dialog id="connection-dialog" aria-labelledby="connection-dialog-title"></dialog>
+  <dialog id="confirm-dialog" aria-labelledby="confirm-dialog-title"></dialog>
+  <dialog id="page-dialog" class="drawer" aria-labelledby="page-dialog-title"></dialog>
+  <dialog id="page-edit-dialog" class="page-edit-dialog" aria-labelledby="page-edit-title"></dialog>
+  <script type="module" src="static/app.js"></script>
+</body>
+</html>

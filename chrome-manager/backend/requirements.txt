@@ -1,0 +1,13 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34,<1
+sqlalchemy>=2.0,<3
+playwright>=1.51,<2
+psutil>=6,<8
+httpx[socks]>=0.28,<1
+python-socks[asyncio]>=2.7,<3
+filelock>=3.17,<4
+python-dotenv>=1,<2
+pytest>=8,<10
+pytest-asyncio>=0.25,<2
+Pillow>=11.3,<13
+tzdata>=2025.1,<2028

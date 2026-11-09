@@ -1,0 +1,13 @@
+interface:
+  display_name: Ảnh áo cao cấp 9:16 — 7 ảnh
+  short_description: 'Đúng count được giao, áo treo cao cấp 9:16'
+  default_prompt: Dùng $ao-cao-cap tạo ảnh áo treo cao cấp riêng biệt dọc 9:16,
+    đúng variant_count trong run-input; standalone mặc định 7 ảnh.
+    Mỗi ảnh một màu áo, giữ nguyên artwork, không có người.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

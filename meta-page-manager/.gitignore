@@ -1,0 +1,9 @@
+.venv/
+.runtime/
+data/
+logs/
+__pycache__/
+.pytest_cache/
+.env
+reel-assets/
+*.pyc

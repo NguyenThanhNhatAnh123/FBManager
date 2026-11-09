@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tách nền hàng loạt — giữ thiết kế gốc"
+  short_description: "Tách nền sạch, giữ nét gốc, PNG 2400×3200"
+  default_prompt: "Dùng $batch-remove-background để tách nền hàng loạt, giữ đúng thiết kế nguồn và xuất PNG trong suốt 2400×3200, kiểm tra nét và nền sót từng mẫu."

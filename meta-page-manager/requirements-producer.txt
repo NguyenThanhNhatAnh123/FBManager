@@ -1,0 +1,3 @@
+-r requirements.txt
+# Camera-motion QA runs in the project environment, never a user cache runtime.
+numpy>=2.2,<3

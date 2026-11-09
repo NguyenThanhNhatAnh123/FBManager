@@ -1,0 +1,4 @@
+interface:
+  display_name: "Via"
+  short_description: "Quản lý Via và lịch đăng trên máy chủ chung"
+  default_prompt: "Dùng $via-manager để kiểm tra các Page và lịch đăng trên Via."

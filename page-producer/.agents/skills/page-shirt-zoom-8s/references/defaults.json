@@ -1,0 +1,83 @@
+{
+  "upload_portal": "https://ul.eagleglobal2023.com",
+  "store_name": "blueox179",
+  "public_store_url": "https://blueox179.com",
+  "source_campaign": null,
+  "design": {
+    "format": "PNG RGBA",
+    "width": 2400,
+    "height": 3200,
+    "preserve_original_artwork": true
+  },
+  "image_skills": [
+    "realistic-shirt-photos-9x16",
+    "realistic-shirt-photos-closeup-9x16",
+    "ao-cao-cap"
+  ],
+  "images_per_design": null,
+  "videos_per_design": null,
+  "variant_count": {"source": "run-input.variant_count", "minimum": 1, "maximum": 14, "legacy_missing_count": 7},
+  "video": {
+    "engine": "FFmpeg",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_seconds": 8,
+    "frames": 240,
+    "zoom_in_start_seconds": 0,
+    "zoom_in_end_seconds": 8,
+    "hold_seconds": 0,
+    "zoom_out": false,
+    "interpolation": "linear",
+    "start_zoom": 1.0,
+    "maximum_zoom": 1.5357994988998975,
+    "anchor_normalized": [
+      0.4999338413558552,
+      0.2545254209332962
+    ],
+    "minimum_print_margin_fraction": 0.04,
+    "auto_reduce_zoom_to_fit_print_box": true,
+    "reference_video": null,
+    "motion_profile_origin": "Reviewed numeric subpixel motion preserved from imported project defaults"
+  },
+  "path_base": "via_project_root",
+  "audio_source_directory": "media/audio",
+  "audio_source_manifest": "media/audio/source-library.json",
+  "audio_mix_policy": "human_approved_exact_pcm_v1",
+  "audio": {
+    "source_scope": "direct_files_in_fixed_source_directory_only",
+    "qa_method": "approved_mix_hash_match",
+    "pcm_decode": "native sample_rate/channels, pcm_s16le, first audio stream, full stream",
+    "approval_scope": "human_approved_reference_pcm_hash_and_render_signature",
+    "selection": "shuffle_without_replacement_until_library_exhausted",
+    "scope": "entire_batch",
+    "persist_plan": "audio-plan.json",
+    "source_start_seconds": 0,
+    "long_track": "trim_to_video_duration",
+    "short_track": "pad_tail_with_silence",
+    "loop": false,
+    "change_speed": false,
+    "fade_in_seconds": 0.06,
+    "fade_out_seconds": 0.15,
+    "audio_only_change_video_codec": "copy"
+  },
+  "delivery": {
+    "one_folder_per_design": true,
+    "copy_file": "POST.md",
+    "separate_caption_for_each_video": true,
+    "include_hashtags": false,
+    "include_verified_product_link": true,
+    "video_zip_contents": "final_videos_only",
+    "video_zip_allowed_extensions": [
+      ".mp4"
+    ],
+    "include_supporting_files_in_video_zip": false
+  },
+  "publishing_social_posts": false,
+  "caption_mode": "product_link_only",
+  "input_mode": "page_manager_run_input",
+  "campaign_templates_by_lettering": {
+    "black": "https://blueox179.com/campaign/zitat25",
+    "white": "https://blueox179.com/campaign/ge2610"
+  }
+}
